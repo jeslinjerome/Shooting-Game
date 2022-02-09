@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shooting Game</title>
+  </head>
+  <body>
+    <main>
+      <section id="health-levels">
+        <h2>PLAYER 1 HEALTH</h2>
+        <p class="percent">
+          <span class="playerhealth" id="player-0-health">100</span>%
+        </p>
+        <h2>PLAYER 2 HEALTH</h2>
+        <p class="percent">
+          <span class="playerhealth" id="player-1-health">100</span>%
+        </p>
+      </section>
+      <section class="scores">
+        <h1>SCORES:</h1>
+        <p class="player-score-card">
+          Player 1 : <span id="player0-score">0</span>
+          <span class="winner-1">WINNER</span>
+        </p>
+        <p class="player-score-card">
+          Player 2 : <span id="player1-score">0</span>
+          <span class="winner-2">WINNER</span>
+        </p>
+      </section>
+      <section id="controls">
+        <button class="btn" id="attack-btn">💣 ATTACK</button>
+        <button class="btn" id="new-game-btn">🔄 START GAME</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
